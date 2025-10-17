@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compras",
+  "info": {
+    "name": "compra"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "CPF": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Endereco": {
+      "type": "string"
+    }
+  }
+}
